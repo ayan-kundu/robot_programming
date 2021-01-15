@@ -1,0 +1,8 @@
+#turtlebot_gazebo simulation
+roslaunch turtlebot_gazebo turtlebot_world.launch
+#thorvald world simulation
+    sudo apt-get install ros-melodic-uol-cmp9767m-base
+    source /opt/ros/melodic/setup.bash
+    roslaunch uol_cmp9767m_base thorvald-sim.launch
+# normal turtle keyboard teleop 
+rosrun turtlesim turtlesim_node
