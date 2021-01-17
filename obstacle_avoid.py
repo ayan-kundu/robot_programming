@@ -1,6 +1,6 @@
 #alike simple wall following alorithm
-
 heading=0
+
 if min_dist <2:
 	turn left 45
 	heading+=45
@@ -26,3 +26,5 @@ if min_dist <2:
 		move forward
 else:
 	move forward
+
+	
