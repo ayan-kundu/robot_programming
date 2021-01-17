@@ -13,6 +13,11 @@ if min_dist <2:
 			if min_dist <2:
 				turn left 180
 				heading+=90
+				if min_dist <2:
+					turn left 45
+					heading+=135
+				else:
+					move forward
 			else:
 				move forward
 		else:
