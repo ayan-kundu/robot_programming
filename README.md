@@ -1,5 +1,5 @@
 # Thorvald Weed spray
-*An autonomous robot names Thorvald is introdused and developed at the University of Lincoln on collaboration with the robotics company SAGA Ltd to build a system that can accomplish a defined task (see below).*
+*An autonomous robot names Thorvald is introdused and developed at the University of Lincoln on collaboration with the robotics company SAGA Ltd to build a system that can accomplish a defined task (see below)*
 
 **Version 1.0.0**
 
