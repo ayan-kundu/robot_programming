@@ -1,6 +1,6 @@
 # Thorvald Weed spray
 *An autonomous robot names Thorvald is introdused and developed at the University of Lincoln on collaboration with the robotics company SAGA Ltd to build a system that can accomplish a defined task (see below)*
-## What is the artifact (system) offering? :**
+## What is the artifact (system) offering? :
 > (Summery of the system) 
 
 * The main purpose of this robotic system (Thorvald is the name of the robot) is to detect precisely the weeds nearby the crops and then spray herbicide in order to eradicate those to facilitate crop growth.
