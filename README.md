@@ -18,7 +18,7 @@ Some times Thorvald runs over edges of the crops
 Spraying job is made précised as far as possible (using single mouth spray and detection software) but still there a slight chance of spray over crop leaves is left. 
 
 Code functionality -
-# import
+#import
 #topics
 #camera img
 #opencv filtering 
