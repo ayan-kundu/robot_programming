@@ -10,7 +10,7 @@
 ## Chosen focus area:
  -The chosen focus area for the artefact is mainly perception, perception over weed detection as well obstacles in front yard of the robot. The artefact involves smart obstacle avoidance algorithm also fine-tuned color filter for identifying weeds and spraying chemicals over those.
 
-### System description:
+## System description:
 > *Starting with the system -*
 
 1. There is a python file thorvald_mover.py which by call makes Thorvald move autonomously (make sure the gazebo simulation is on and Thorvald is spawned in correctly).After that for detection part Thorvald_weed _detection.py file should be run in ROS environment (make sure roscore is in active) and now Thorvald is capable to detect the weeds nearby it and spay over the chemical on those.
