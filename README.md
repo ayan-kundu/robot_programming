@@ -23,14 +23,10 @@
 3. Spraying job is made précised as far as possible (using single mouth spray and detection software) but still there a slight chance of spray over crop leaves is left. 
 
 ##### Code functionality -
-[CodeTime](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_weed_detection.py)
-#import
-#topics
-#camera img
-#opencv filtering 
-#moment
-#img to cam frame
-#spraying
+>This code helps Thorvald detect weeds in front of it and spray over it
+[thorvald_weed_detector](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_weed_detection.py)
+> This code makes the robot move autonomously avoiding obstacles inside the agricultural field using Leser  sensor
+[thorvald_mover]()
 
 
 
