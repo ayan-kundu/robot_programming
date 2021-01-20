@@ -1,7 +1,7 @@
 # Thorvald Weed spray
 
 **What is the artifact (system) offering? :**
-# (Summery of the system) 
+> (Summery of the system) 
 
 * The main purpose of this robotic system (Thorvald is the name of the robot) is to detect precisely the weeds nearby the crops and then spray herbicide in order to eradicate those to facilitate crop growth.
 * Firstly, the robot is made auto-moveable inside the agricultural field avoiding collisions with objects as well as the walls present over there.
@@ -23,7 +23,7 @@ The chosen focus area for the artefact is mainly perception, perception over wee
 3. Spraying job is made précised as far as possible (using single mouth spray and detection software) but still there a slight chance of spray over crop leaves is left. 
 
 ##### Code functionality -
-
+[CodeTime]()
 #import
 #topics
 #camera img
