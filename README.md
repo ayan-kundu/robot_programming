@@ -8,7 +8,7 @@
 * Secondly, using RGBD-Camera mounted on its front part facing down and with the help of openCV-tools, weeds are detected and by conversion from camera coordinate to spray co-ordinate using ‘tf’ in ROS, spraying is done precisely over the weeds. 
 
 ## Chosen focus area:
-- The chosen focus area for the artefact is mainly perception, perception over weed detection as well obstacles in front yard of the robot. The artefact involves smart obstacle avoidance algorithm also fine-tuned color filter for identifying weeds and spraying chemicals over those.
+ -The chosen focus area for the artefact is mainly perception, perception over weed detection as well obstacles in front yard of the robot. The artefact involves smart obstacle avoidance algorithm also fine-tuned color filter for identifying weeds and spraying chemicals over those.
 
 ### System description:
 > *Starting with the system -*
