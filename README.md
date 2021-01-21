@@ -22,19 +22,19 @@
 
 #### Drawbacks and settings:
 1. With an increase in speed of the robot slight decrease accuracy in detection and spraying is observed due to lagging in the system; Linear speed is set to .7 m/s and angular velocity to  -0.5 rad/s.
-2. Some times Thorvald runs over edges of the crops.  
-3. Spraying job is made précised as far as possible (using single mouth spray and detection software) but still there a slight chance of spray over crop leaves is left. 
-
+2. Some times Thorvald runs over edges of the crops(although it is rare).  
+3. Spraying job is made précised as far as possible (using single mouth spray and detection software) but still there a slight chance of spray over crop leaves and missing spray over weeds is left. 
+4. although weed is detected and filtered fine but due to poor manipulation over their centroid tracking the system becomes a bit poor performing; therefore the spraying job is disturbed.
 ##### Code functionality and description -
 > launch [thorvald-sim.launch](https://github.com/LCAS/CMP9767M/tree/master/uol_cmp9767m_base/launch) to work with thorvald simulation in gazebo
-> launch.[move_base.launch](https://github.com/LCAS/CMP9767M/blob/master/uol_cmp9767m_tutorial/launch/move_base.launch) to use move_base action called inside the main code-thorvald_weed_detector.py
+
+> launch [move_base.launch](https://github.com/LCAS/CMP9767M/blob/master/uol_cmp9767m_tutorial/launch/move_base.launch) to use move_base action called inside the main code-thorvald_weed_detector.py
+
 - [thorvald_mover.py](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_mover.py)
 > This code makes the robot move autonomously avoiding obstacles inside the agricultural field using Leser  sensor.
+
 - [thorvald_weed_detector.py](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_weed_detection.py)
 >This code helps Thorvald detect weeds in front of it and spray over it.
-
-###### limitations:
-
 
 
 
