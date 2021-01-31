@@ -26,13 +26,16 @@
 3. Spraying job is made précised as far as possible (using single mouth spray and detection software) but still there a slight chance of spray over crop leaves and missing spray over weeds is left. 
 4. although weed is detected and filtered fine but due to poor manipulation over their centroid tracking the system becomes a bit poor performing; therefore the spraying job is disturbed.
 ##### Code functionality and description -
+
 > launch [thorvald-sim.launch](https://github.com/LCAS/CMP9767M/tree/master/uol_cmp9767m_base/launch) to work with thorvald simulation in gazebo
-
+----
 > launch [move_base.launch](https://github.com/LCAS/CMP9767M/blob/master/uol_cmp9767m_tutorial/launch/move_base.launch) to use move_base action called inside the main code-weeding_robot1.py
-
+----
+- [thorvald_mover.py](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_mover.py)
+> Make sure you are not running move_base.launch and thorvald_mover at a time otherwise it can creat confusion for the robot to move.
+----
 - [weeding_robot1.py](https://github.com/ayan-kundu/robot_programming/blob/main/weeding_robot1.py)
 > This code helps Thorvald detect weeds in front of it and spray over them.
 
-- [thorvald_mover.py](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_mover.py)
-> Make sure you are not running move_base.launch and thorvald_mover at a time otherwise it can creat confusion for the robot to move. 
+ 
 
