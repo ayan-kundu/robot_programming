@@ -31,6 +31,8 @@
 ----
 > launch [move_base.launch](https://github.com/LCAS/CMP9767M/blob/master/uol_cmp9767m_tutorial/launch/move_base.launch) to use move_base action called inside the main code-weeding_robot1.py
 ----
+To use this launch files one has to have related files in [config](https://github.com/LCAS/CMP9767M/tree/master/uol_cmp9767m_tutorial) and [launch](https://github.com/LCAS/CMP9767M/tree/master/uol_cmp9767m_base) folder placed in [LCAS/CMP9767M](https://github.com/LCAS/CMP9767M)
+----
 - [thorvald_mover.py](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_mover.py)
 > Make sure you are not running move_base.launch and thorvald_mover at a time otherwise it can creat confusion for the robot to move.
 ----
