@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import rospy
+import rospy ,time
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan
@@ -28,15 +28,19 @@ class Mover:
         Callback called any time a new laser scan becomes available
         """
 
-        rospy.loginfo(
-            rospy.get_caller_id() + "I heard %s", data.header.seq)
+        #rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.header.seq)
+        rospy.loginfo("Robot moving - %s"%rospy.get_time)
+        #self.rate.sleep()
         min_dist = min(data.ranges)
         t = Twist()
         if min_dist < 1.2:   #within 2 m distance
-            t.angular.z = 0.5
+            #t.linear.x=-.7
+            #time.sleep(.01)
+            t.angular.z = 0.9
         else:
-            t.linear.x = 1  #2.1
-        self.publisher.publish(t)
+            t.linear.x = .2  #2.1
+            self.publisher.publish(t)
+        
         #self.rate.sleep()
 
 if __name__ == '__main__':
