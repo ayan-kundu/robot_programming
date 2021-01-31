@@ -30,7 +30,7 @@
 
 > launch [move_base.launch](https://github.com/LCAS/CMP9767M/blob/master/uol_cmp9767m_tutorial/launch/move_base.launch) to use move_base action called inside the main code-weeding_robot1.py
 
-- [weeding_robot1.py](https://github.com/ayan-kundu/robot_programming/blob/main/weeding_robot.py)
+- [weeding_robot1.py](https://github.com/ayan-kundu/robot_programming/blob/main/weeding_robot1.py)
 > This code helps Thorvald detect weeds in front of it and spray over them.
 
 - [thorvald_mover.py](https://github.com/ayan-kundu/robot_programming/blob/main/thorvald_mover.py)
